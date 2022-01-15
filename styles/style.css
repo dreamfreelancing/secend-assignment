@@ -86,7 +86,7 @@ img.img {
 }
 
 /* 4th step Popular Collection */
-.collection{
+/* .collection{
     margin-top: 30px;
 }
 h2.pop-cl {
@@ -95,6 +95,9 @@ h2.pop-cl {
 }
 .collection {
     margin: 8%;
+    grid-template-columns: repeat(3, 1fr);
+    display: inline-block;
+    
 }
 p.str i {
     font-size: 10px;
@@ -111,4 +114,32 @@ p.str i {
 img {
     margin: 18px;
     margin-bottom: 0;
+} */
+.top-blogs{
+    margin: 8%;
+}
+.p-c{
+    text-align: center;
+    margin-top: 50px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+h5 {
+    font-size: 22px;
+    margin: 0;
+}
+.collection-author {
+    color: orange;
+    font-size: 12px;
+}
+p.c-p {
+    font-size: 15px;
+}
+.collection {
+    background-color: #f3eeee;
+    padding-left: 20px;
+    padding-top: 50px;
+    border: 2px solid white;
 }
