@@ -1,10 +1,11 @@
 .body{
-    padding: 0;
-    margin: 0;
+   
     background-color: #FFFFFF;
 }
 *{
     font-family: 'Poppins', sans-serif;
+    /* padding: 0; */
+    margin: 0;
 }
 /* head */
 .main-head{
@@ -56,6 +57,7 @@ h1.h1 {
 }
 p {
     font-size: 19px;
+    margin-bottom: 40px;
 }
 a.btn {
     text-decoration: none;
@@ -64,6 +66,7 @@ a.btn {
     padding: 8px 15px;
     border-radius: 20px;
     font-weight: 500;
+    margin-top: 15px;
 }
 .secend-step{
     margin-right: 8%;
@@ -82,7 +85,7 @@ a.btn {
 img.img {
     /* width: 8%; */
     /* display: inline-block; */
-    padding-left: 66px;
+    padding-left: 60px;
 }
 
 /* 4th step Popular Collection */
@@ -125,6 +128,7 @@ img {
 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 45px;
 }
 h5 {
     font-size: 22px;
@@ -139,7 +143,53 @@ p.c-p {
 }
 .collection {
     background-color: #f3eeee;
-    padding-left: 20px;
-    padding-top: 50px;
-    border: 2px solid white;
+    padding:35px;
+    border: 3px solid white;
+}
+.see-more{
+    color: #E02C6D;
+    float: right;
+    margin-top: 30px;
+}
+
+/* Featured products  */
+.last-step{
+    margin: 8%;
+    margin-top:12% ;
+}
+.Featured-products{
+    display: flex;
+}
+.featured {
+    margin-left: 8%;
+    margin-top: 6px;
+}
+.tilee{
+    font-size: 39px;
+}
+/* footer side */
+.footer{
+    background-color: black;
+    padding: 32px;
+}
+.influn{
+    text-align: center;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.icon i{
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    width: 25px;
+    font-size: 18px;
+  
+}
+.icon {
+    text-align: center;
 }
