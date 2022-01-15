@@ -1,7 +1,7 @@
 .body{
     padding: 0;
     margin: 0;
-    
+    background-color: #FFFFFF;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -31,4 +31,84 @@ ul.manu li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+}
+.blogs {
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+}
+.blog {
+    width: 50%;
+    margin-top: 60px;
+}
+.image-width {
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+h1.h1 {
+    margin: 0;
+    font-size: 50px;
+}
+h1.h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+p {
+    font-size: 19px;
+}
+a.btn {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.secend-step{
+    margin-right: 8%;
+    /* margin: 5%; */
+    margin-left: 8%;
+}
+/* 3rdstep */
+.company-logo{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+img.img {
+    /* width: 8%; */
+    /* display: inline-block; */
+    padding-left: 66px;
+}
+
+/* 4th step Popular Collection */
+.collection{
+    margin-top: 30px;
+}
+h2.pop-cl {
+    text-align: center;
+    font-size: 32px;
+}
+.collection {
+    margin: 8%;
+}
+p.str i {
+    font-size: 10px;
+    color: red;
+}
+.Flex {
+    background-color: #e1e0e0;
+    width: 30%;
+}
+.ex-div{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+img {
+    margin: 18px;
+    margin-bottom: 0;
 }
