@@ -7,6 +7,9 @@
     /* padding: 0; */
     margin: 0;
 }
+.container{
+    width: 1312px;
+}
 /* head */
 .main-head{
     margin: 5%;
@@ -33,6 +36,7 @@ ul.manu li a {
     color: black;
     font-size: 18px;
 }
+/* <!-- first step --> */
 .blogs {
     display: flex;
     margin: 5%;
@@ -193,3 +197,42 @@ p.c-p {
 .icon {
     text-align: center;
 }
+/*----------------
+        media 
+ --------------- */
+ @media only screen and (max-width:688px) {
+     .container{
+         width: 688px
+     };
+    .main-head{
+        margin: 2%;
+    }
+    h2.like-logo{
+        font-size: 25px;
+        text-align: center;
+    }
+    ul.manu li a{
+        display: none;
+    }
+    .h1{
+        font-size: 22px;
+    }
+    .blogs {
+        display: block;
+        margin: 5%;
+    }
+    .blog {
+        margin-top: 10px;
+    }
+    .image-width {
+        width: 50%;
+        border: none;
+    }
+        .collections{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .Featured-products{
+            display: block;
+        }
+
+ }
